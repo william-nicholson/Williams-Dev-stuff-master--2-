@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+    font-family: "spiderman1", sans-serif;
+    font-size: 250%;
+    color: white;
+   
+}
+.top-text, .bottom text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 120px 0;
+}
+.top-text {
+    top: 0;
+}
+.bottom-text {
+    bottom: 0;
+}
+h2 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 100%;
+    color:darksalmon
+}
+
+.profilepic {
+    border: 5px solid grey;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 3%;
+    top: 10%;
+}
+
+body {
+    background-image: url(teahub.io-dark-rain-wallpaper-1861346\ \(2\).jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-container1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  .text-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .text-container h2 {
+    margin-bottom: 1rem;
+  
+  }
+  .text-container2 {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10;
+    padding: 10;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration:none;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    border-radius: 20px;
+       
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+
+  
+ 
+
+
+  @font-face {
+    font-family: "spiderman1";
+    src: url(Mightyspidey-pmaa.ttf) format("truetype");
+    /* You can add additional font files with different formats for cross-browser compatibility */
+  }
+  
